@@ -2,8 +2,10 @@ import {useState} from 'react';
 import { Form } from "./components/Form";
 import { Todos } from "./components/Todos";
 import {useDispatch, useSelector} from 'react-redux';
-import {deleteAll} from './redux/todoapp/actions';
+import {deleteAll}   from './redux/todoapp/actions';
 
+
+//space added
 function App() {
   // dispatch function to dispatch an action
   const dispatch = useDispatch();
